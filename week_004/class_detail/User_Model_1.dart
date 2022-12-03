@@ -1,4 +1,5 @@
-class User {
+//tüm sınıflar, obje sınıfından türer
+class User extends Object {
   //Null olabilir demek için ? yazıyoruz sonradan final olacak
   late final String name;
   late int money;
@@ -22,4 +23,3 @@ class User {
     return _id;
   }
 }
-

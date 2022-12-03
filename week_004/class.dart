@@ -18,4 +18,7 @@ void main(List<String> args) {
   NewUser newUser = new NewUser('BugraNew', 5500);
   newUser.money += 5;
   print(newUser.money);
+
+  print('-------------' * 5);
+  print(newUser.toString());
 }
