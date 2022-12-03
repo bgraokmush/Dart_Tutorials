@@ -1,7 +1,5 @@
 void main(List<String> args) {
-  Student st = new Student('Bugra', '15');
-
-  st.sayAge();
+  Student student = new Student('Bugra', '20', 41);
 }
 
 abstract class IStudent {
