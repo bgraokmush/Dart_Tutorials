@@ -7,6 +7,7 @@ void main(List<String> args) {
   bankUser.sayMoneyWithCompany();
 }
 
+
 //Tüm müşterilerin paralarını görbilmelerini ama benim banka ismimle
 
 

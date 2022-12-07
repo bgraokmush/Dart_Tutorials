@@ -18,3 +18,9 @@ class NewUser {
     _money = money == null ? 0 : money;
   }
 }
+
+extension NewUserControlExtension on NewUser {
+  void controlName() {
+    print(name);
+  }
+}
